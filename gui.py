@@ -13,8 +13,8 @@ load_dotenv()
 class OmniForgeAnimatedGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("OmniForge Voice & Text")
-        self.root.geometry("400x630") 
+        self.root.title("OmniForge")
+        self.root.geometry("480x630") 
         self.root.configure(bg="#0c0c0e")
         self.root.resizable(False, False)
 
